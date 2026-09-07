@@ -1,8 +1,25 @@
 # Ex.no.8-Building-a-Simple-College-Admission-Chatbot
 ## Aim :
  To design, implement and test a simple rule-based chatbot in Python that answers frequently asked questions related to college admissions, such as courses offered, eligibility criteria, fees, application process, required documents, important dates, hostel facilities and contact details.
+ # OBJECTIVES
+. To understand the basic working of a rule-based chatbot.
+. To create a keyword-based knowledge base for college admission queries.
+. To implement intent matching using Python regular expressions.
+. To test the chatbot using different sample queries.
 ### Introduction
 A chatbot is a software application that simulates a conversation with a human user, typically through text. A rule-based (or pattern-matching) chatbot works by comparing the user's message against a predefined set of keywords or patterns and returning a suitable pre-written response. It does not require large training datasets or heavy computation, which makes it an easy and beginner-friendly starting point for understanding how conversational AI systems are built. In this experiment, a College Admission Chatbot is developed to act as a virtual help-desk assistant that instantly answers common queries asked by prospective students.
+# ALGORITHM
+1.Start the program.
+2.Import the required Python libraries.
+3.Create the chatbot knowledge base with intents, patterns and responses.
+4.Accept the user's input.
+5.Convert the input into lowercase.
+6.Match the input with predefined patterns using regular expressions.
+7.Identify the corresponding intent.
+8.Select and display a suitable response.
+9.If no intent matches, display a fallback response.
+10.Continue the conversation until the user enters a goodbye command.
+11.Stop the program.
 ### Procedure
 ### Step 1: Import Required Libraries
 ●	re – Python's regular expression module, used to search for keyword patterns inside the user's message.
@@ -49,12 +66,3 @@ Output
 <img width="660" height="380" alt="image" src="https://github.com/user-attachments/assets/698ac90d-7962-406c-b381-03d16bedfb3b" />
 ## Conclusion
 Thus, a simple rule-based College Admission Chatbot was successfully designed, implemented and tested using Python. The chatbot uses a keyword/pattern-based knowledge base to identify the intent behind a user's question and responds with an appropriate, pre-defined answer covering courses, eligibility, fees, application process, documents, dates, hostel and contact information. The experiment demonstrates the fundamental building blocks — knowledge base design, intent matching and response generation — on which more advanced NLP-based and AI-based chatbots are built.
-
-
-
-
-
-
-
-
-
